@@ -1,0 +1,12 @@
+div, h2, form, form > input {
+	margin-top: 2vh;
+}
+
+i {
+	cursor: pointer;
+}
+
+img {
+	width: 15vh;
+	height: 10vh;
+}
