@@ -1,3 +1,7 @@
+<?php
+require_once 'php/dbClass.php'; //подключаем файл с классом подключения к БД
+$connect = new DBConnection(); //создаём экземпляр класса подключения к БД
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,10 +14,10 @@
 <body>
 	<div class="container">
 		<nav class="nav justify-content-start nav-tabs">
-  			<a class="nav-link" href="repertoire.html">Repertoire</a>
-  			<a class="nav-link" href="film.html">Film</a>
-  			<a class="nav-link" href="session.html">Session</a>
-  			<a class="nav-link  active" href="login.html">Login</a>
+  			<a class="nav-link" href="repertoire.php">Repertoire</a>
+  			<a class="nav-link" href="film.php">Film</a>
+  			<a class="nav-link" href="session.php">Session</a>
+  			<a class="nav-link  active" href="login.php">Login</a>
 		</nav>
 	</div>
 	<div class="container">
@@ -26,6 +30,5 @@
 	</div>
 </body>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </html>

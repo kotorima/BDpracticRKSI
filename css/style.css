@@ -10,3 +10,7 @@ img {
 	width: 15vh;
 	height: 10vh;
 }
+
+.pencil, .hide{
+	display: none;
+}
